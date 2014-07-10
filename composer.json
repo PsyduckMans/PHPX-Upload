@@ -1,0 +1,33 @@
+{
+    "name": "phpx/upload",
+    "description": "PHPX/Upload library",
+    "type": "library",
+    "license": "MIT License",
+    "keywords": [
+        "phpx",
+        "library",
+        "upload",
+        "zf2"
+    ],
+    "homepage": "https://ninth.not-bad.org",
+    "authors" : [{
+        "name" : "Psyduck.Mans",
+        "email" : "t-bird.mans@hotmail.com",
+        "role" : "RD"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "PHPX\\Upload\\" : "src/PHPX/Upload"
+        }
+    },
+    "support" : {
+        "source" : "https://github.com/PsyduckMans/PHPX-Upload",
+        "issues" : "https://github.com/PsyduckMans/PHPX-Upload/issues",
+        "wiki" : "https://github.com/PsyduckMans/PHPX-Upload/wiki",
+        "email" : "t-bird.mans@hotmail.com"
+    }
+}
