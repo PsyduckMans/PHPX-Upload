@@ -52,4 +52,26 @@ try {
 } catch(\Exception $e) {
     echo $e;
 }
+
+#result:
+array(3) {
+  ["images_0_"]=>
+  NULL
+  ["images_1_"]=>
+  array(2) {
+    ["code"]=>
+    int(-1)
+    ["error"]=>
+    string(41) "仅支持jpg,jpeg,png,gif,xls扩展类型"
+  }
+  ["images_2_"]=>
+  array(3) {
+    ["code"]=>
+    int(0)
+    ["path"]=>
+    string(96) "/workspace/public/uploads/518/678/300/ac684411835f6c355d4999a.png"
+    ["relativePath"]=>
+    string(39) "518/678/300/ac684411835f6c355d4999a.png"
+  }
+}
 </pre>

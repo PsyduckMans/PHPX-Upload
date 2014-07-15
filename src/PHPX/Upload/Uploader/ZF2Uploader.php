@@ -116,6 +116,7 @@ class ZF2Uploader extends Uploader {
 					$result[$inputFileName]['error'] = current($this->adapter->getMessages());
 				} else {
 					$result[$inputFileName]['path'] = $this->adapter->getFileName($inputFileName);
+					$result[$inputFileName]['relativePath'] = $renamePath;
 				}
 			}
 		}
